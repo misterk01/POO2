@@ -1,14 +1,6 @@
 <?php
-require_once 'Bicycle.php';
-require_once 'Car.php';
+
 require_once 'Truck.php';
-
-$bicycle = new Bicycle('blue', 1);
-echo $bicycle->forward();
-
-$car = new Car('green', '2', 'electric');
-$car->setNbWheels(4);
-echo $car->forward();
 
 $truck = new Truck(1000,'black',8, 'diesel');
 $truck->setLoad(90);
